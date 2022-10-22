@@ -1,15 +1,8 @@
-let nIntervId;
+let d = new Date();
+let time  = d.toLocaleDateString();
 
-function changeColor() {
-  
-  
-    nIntervId = setInterval(printDate, 1000);
-  
-}
+setInterval(printDate, 1000, time);
 
-function printDate(){
-    let d = new Date();
-    let time = d.toLocaleDateString();
-
+function printDate(time){
     console.log(time);
 }

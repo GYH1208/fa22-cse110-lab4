@@ -10,6 +10,6 @@ let statistics = {
 
 for (const prop in statistics) {
      if( prop.charAt(0) == 'r' || prop % 2 == 1){
-        console.log(statistics.prop);
+        console.log(statistics[prop]);
      }
   }
