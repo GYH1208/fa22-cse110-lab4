@@ -50,5 +50,10 @@
 
 ### (16) check part2-question16.js
 
-### (17)
+### (17) The function will return an modified array which is [2,4,6]. The parameter is [1,2,3] and a function doSomething. In the function modifyArray, we first created a new array, then in the for loop, we pass in every element in the array into the callback function which is doSomething. After that, we push the returned value of the callback function into the new array.
+
+### (18) check part2-question18.js
+
+### (19) The output will be 1 3 4 2 because the execution of console.log(2) is delayed by 1 second, and other console.log operations are not delayed.
+
 
