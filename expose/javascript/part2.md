@@ -48,5 +48,7 @@
 
 ### (15) == will check the if the values are equal without checking the types of each comparators. === will check the type of each comparators. If two comparators are in different types, then the statement will return false immediately.
 
-### (16)
+### (16) check part2-question16.js
+
+### (17)
 
